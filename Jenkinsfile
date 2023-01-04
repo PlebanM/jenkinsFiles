@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    enviroment {
-        GIT_HOST: 'git.accountor.eficode.io'
-        GIT_INFRA_PATH: "git@${GIT_HOST}:accountorhr/mepco-cloud/"
+    environment {
+        GIT_HOST = 'git.accountor.eficode.io'
+        GIT_INFRA_PATH = "git@${GIT_HOST}:accountorhr/mepco-cloud/"
     }
 
     stages {
