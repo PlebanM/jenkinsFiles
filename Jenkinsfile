@@ -1,7 +1,7 @@
-def config = [
-    PROJECT_NAME: 'mepco-cloud-product-catalog-service',
-    PROJECT_TYPE: 'backend'
-]
+// def config = [
+//     PROJECT_NAME: 'mepco-cloud-product-catalog-service',
+//     PROJECT_TYPE: 'backend'
+// ]
 
 pipeline {
     agent any
