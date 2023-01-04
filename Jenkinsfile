@@ -1,6 +1,6 @@
 def config = [
     PROJECT_NAME: 'mepco-cloud-product-catalog-service',
-    PROJECT_TYPE: 'backend'
+    PROJECT_TYPE: "backend===========> ${PROJECT_NAME}"
 ]
 
 pipeline {
