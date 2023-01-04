@@ -13,11 +13,11 @@ pipeline {
                     echo "echo from setup"
             }
         }
+        }
         stage ('install') {
             steps {
                 echo 'Teksy install'
             }
         }
     }
-}
 }
