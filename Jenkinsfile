@@ -10,7 +10,7 @@ pipeline {
         stage ('setup') {
             steps {
                 script {
-                    echo "echo from setup: ${PROJECT_NAME}"
+                    echo "echo from setup: ${config.PROJECT_NAME}"
             }
         }
         }
