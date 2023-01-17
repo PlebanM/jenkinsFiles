@@ -20,7 +20,7 @@ pipeline {
         stage ('install') {
             steps {
                 script{
-                    if(param.Dryrun){
+                    if(params.Dryrun){
                         echo "Teksy install OK"
                     }
                     else{
