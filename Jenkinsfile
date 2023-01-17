@@ -15,6 +15,7 @@ pipeline {
                 script {
                     echo "echo from setup: ${env.GIT_INFRA_PATH}"
             }
+            sh 'echo "======> $GIT_HOST"'
         }
         }
         stage ('install') {
