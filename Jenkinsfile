@@ -19,7 +19,9 @@ pipeline {
         }
         stage ('install') {
             steps {
-                echo "Teksy install ${patam.Dryrun}"
+                script{
+                    echo "Teksy install ${param.Dryrun}"
+                }
             }
         }
     }
